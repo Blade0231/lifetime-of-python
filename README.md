@@ -1,6 +1,4 @@
 # lifetime-of-python
-Random Scripts for Python Practice
+Random Scripts and Projects for Python Practice
 
-
-- Day 1 : Getting Started with Python, Simple Operations and Data Types.
-- Day 2 : Basic Implementation of Function and Classes.
+zzz_Trials has some basic implementations of things i try out while exploring.
