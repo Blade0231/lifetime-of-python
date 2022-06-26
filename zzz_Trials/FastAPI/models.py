@@ -3,14 +3,17 @@ from uuid import uuid4, UUID
 from prometheus_client import Enum
 from pydantic import BaseModel
 
+
 class Gender(str, Enum):
     male = "male"
     female = "female"
+
 
 class Role(str, Enum):
     admin = "admin"
     user = "user"
     student = "student"
+
 
 class User(BaseModel):
     id: Optional[UUID] = uuid4
