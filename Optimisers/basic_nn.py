@@ -132,3 +132,11 @@ res['RMSprop'] = loss_values
 
 for i in res.columns:
     res[i] = res[i].apply(lambda x: x.numpy())
+
+
+for ind, rows in df.iterrows():
+    if ind%10==0:
+        res = res.append(rows)
+
+plt.plot(res.index, res.ADAM)
+plt.show()
